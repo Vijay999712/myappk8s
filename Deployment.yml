@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: yourapp-container
-        image: vijaybabu09/practice-app1
+        image: vijaybabu09/harness_test:30
         ports:
         - containerPort: 80
