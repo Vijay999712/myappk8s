@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: yourapp-container
-        image: vijaybabu09/vijayimage:latest
+        image: vijaybabu09/practice-app:latest
         ports:
         - containerPort: 80
