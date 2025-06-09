@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: yourapp-deployment
+  name: yourapp-deployment-1
   labels:
-    app: yourapp
+    app: yourapp-1
 spec:
   replicas: 2
   selector:
@@ -15,7 +15,7 @@ spec:
         app: yourapp
     spec:
       containers:
-      - name: yourapp-container
+      - name: yourapp-container-1
         image: nginx:1.21
         ports:
         - containerPort: 80
