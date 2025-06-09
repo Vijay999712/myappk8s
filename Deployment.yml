@@ -15,7 +15,7 @@ spec:
         app: yourapp
     spec:
       containers:
-      - name: yourapp-container-1
+      - name: vijaybabu09/harness_test:MYAPP
         image: nginx:1.21
         ports:
         - containerPort: 80
