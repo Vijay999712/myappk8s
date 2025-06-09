@@ -15,7 +15,7 @@ spec:
         app: yourapp
     spec:
       containers:
-      - name: Cont1
+      - name: yourapp-container-1
         image: vijaybabu09/practice-app:latest
         ports:
         - containerPort: 80
