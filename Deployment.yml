@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: yourapp-container-1
-        image: vijaybabu09/harness_test:MYAPP
+        image: ubuntu:latest
         ports:
         - containerPort: 80
