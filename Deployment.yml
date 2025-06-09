@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: yourapp-container-1
-        image: saitejatamiri/java-sample-app:latest
+        image: tomcat:9.0-alpine
         ports:
-        - containerPort: 80
+        - containerPort: 8080
