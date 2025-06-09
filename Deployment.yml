@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: yourapp-container-1
-        image: ubuntu:latest
+        image: saitejatamiri/java-sample-app:latest
         ports:
         - containerPort: 80
